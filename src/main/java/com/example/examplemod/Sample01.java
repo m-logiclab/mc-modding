@@ -1,6 +1,7 @@
 package com.example.examplemod;
 
 import com.example.examplemod.world.item.ModItems;
+import com.example.examplemod.world.level.block.ModBlocks;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -38,7 +39,8 @@ public class Sample01
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
-        ModItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ModBlocks.BLOCKS.register( FMLJavaModLoadingContext.get().getModEventBus() );
+        ModItems.ITEMS.register( FMLJavaModLoadingContext.get().getModEventBus() );
 
     }
 
