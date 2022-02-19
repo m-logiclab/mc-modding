@@ -1,4 +1,9 @@
 {
   "block.sample01.pink_diamond_ore": "ピンクダイヤモンド鉱石",
-  "item.sample01.pink_diamond": "ピンクダイヤモンド"
+  "item.sample01.pink_diamond": "ピンクダイヤモンド",
+  "item.sample01.pink_diamond_pickaxe": "ピンクダイヤモンドのツルハシ",
+  "item.sample01.pink_diamond_axe": "ピンクダイヤモンドの斧",
+  "item.sample01.pink_diamond_hoe": "ピンクダイヤモンドのクワ",
+  "item.sample01.pink_diamond_shovel": "ピンクダイヤモンドのショベル",
+  "item.sample01.pink_diamond_sword": "ピンクダイヤモンドの剣"
 }

@@ -1,4 +1,9 @@
 {
   "block.sample01.pink_diamond_ore": "Pink Diamond Ore",
-  "item.sample01.pink_diamond": "Pink Diamond"
+  "item.sample01.pink_diamond": "Pink Diamond",
+  "item.sample01.pink_diamond_pickaxe": "Pink Diamond Pickaxe",
+  "item.sample01.pink_diamond_axe": "Pink Diamond Axe",
+  "item.sample01.pink_diamond_hoe": "Pink Diamond Hoe",
+  "item.sample01.pink_diamond_shovel": "Pink Diamond Shovel",
+  "item.sample01.pink_diamond_sword": "Pink Diamond Sword"
 }
