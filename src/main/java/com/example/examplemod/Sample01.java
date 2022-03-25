@@ -2,6 +2,8 @@ package com.example.examplemod;
 
 import com.example.examplemod.world.item.ModItems;
 import com.example.examplemod.world.level.block.ModBlocks;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -24,6 +26,13 @@ import java.util.stream.Collectors;
 public class Sample01
 {
     public static final String MOD_ID = "sample01";
+
+    public static final CreativeModeTab TAB = new CreativeModeTab( "sample01tab" ) {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack( ModItems.PINK_DIAMOND.get() );
+        }
+    };
 
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
